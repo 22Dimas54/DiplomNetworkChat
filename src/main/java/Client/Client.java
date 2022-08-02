@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class Client {
 
+    private static final String PATH = "src\\main\\resources\\settings.json";
     private String name;
 
     public void setName(String name) {
@@ -33,7 +34,7 @@ public class Client {
                     break;
                 }
                 out.println(msg);
-                System.out.println(this.getName() + " " + in.readLine());
+                System.out.println(in.readLine());
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -41,7 +42,7 @@ public class Client {
     }
 
     public static String getResource(String key) {
-        try (FileReader reader = new FileReader("src\\main\\resources\\settings.json")) {
+        try (FileReader reader = new FileReader(PATH)) {
             JSONParser parser = new JSONParser();
             Object obj = parser.parse(reader);
             JSONObject jsonObject = (JSONObject) obj;
