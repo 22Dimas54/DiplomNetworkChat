@@ -6,27 +6,32 @@ import org.json.simple.parser.ParseException;
 
 import java.io.*;
 import java.net.ServerSocket;
-import java.util.Date;
+import java.net.Socket;
 import java.util.concurrent.*;
+import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Server {
     private static final String PATH = "src\\main\\resources\\settings.json";
+    private static final String PATH_LOG = "src\\main\\resources\\Server.log";
     private static final int PORT = Integer.parseInt(getResource("port"));
     private static final Logger LOGGER_SERVER = Logger.getLogger("loggerServer");
-    private static final Date DATE = new Date();
     private final BlockingQueue<ClientHandler> clients = new LinkedBlockingQueue<>();
+    private FileHandler fileHandlerServer;
 
     public void start() {
+        ExecutorService executorService = Executors.newCachedThreadPool();
+        Socket socket = null;
         try {
+            fileHandlerServer = new FileHandler(PATH_LOG, true);
             ServerSocket serverSocket = new ServerSocket(PORT);
-            System.out.println("Server started");
-            LOGGER_SERVER.log(Level.INFO, "Server started " + DATE.toString());
-            ExecutorService executorService = Executors.newCachedThreadPool();
+            LOGGER_SERVER.addHandler(fileHandlerServer);
+            LOGGER_SERVER.log(Level.INFO, "Server started");
             while (true) {
                 try {
-                    ClientHandler clientHandler = new ClientHandler(serverSocket.accept(), this);
+                    socket = serverSocket.accept();
+                    ClientHandler clientHandler = new ClientHandler(socket, this);
                     clients.add(clientHandler);
                     executorService.submit(clientHandler);
                 } catch (IOException e) {
@@ -35,6 +40,14 @@ public class Server {
             }
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                socket.close();
+                fileHandlerServer.close();
+                executorService.shutdown();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -54,8 +67,8 @@ public class Server {
     }
 
     public void sendMsgClients(String msg) {
-        for (ClientHandler o : clients) {
-            o.sendMsg(msg);
+        for (ClientHandler clientHandler : clients) {
+            clientHandler.sendMsg(msg);
         }
     }
 }

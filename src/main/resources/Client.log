@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-03T03:22:11.517841700Z</date>
+  <millis>1659496931517</millis>
+  <nanos>841700</nanos>
+  <sequence>0</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>В чате новый участник Test</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:18.859513Z</date>
+  <millis>1659496938859</millis>
+  <nanos>513000</nanos>
+  <sequence>1</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Test: msg test</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:23.242319900Z</date>
+  <millis>1659496943242</millis>
+  <nanos>319900</nanos>
+  <sequence>2</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Test:  покинул чат</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-03T03:22:43.426952100Z</date>
+  <millis>1659496963426</millis>
+  <nanos>952100</nanos>
+  <sequence>0</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>В чате новый участник Bob</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:52.896885600Z</date>
+  <millis>1659496972896</millis>
+  <nanos>885600</nanos>
+  <sequence>1</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Bob: msg Boba</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:56.434058900Z</date>
+  <millis>1659496976434</millis>
+  <nanos>58900</nanos>
+  <sequence>2</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Bob:  покинул чат</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-03T03:26:00.005509200Z</date>
+  <millis>1659497160005</millis>
+  <nanos>509200</nanos>
+  <sequence>0</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>В чате новый участник Anna</message>
+</record>
+<record>
+  <date>2022-08-03T03:26:11.511839600Z</date>
+  <millis>1659497171511</millis>
+  <nanos>839600</nanos>
+  <sequence>1</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Anna: msg Anna</message>
+</record>
+<record>
+  <date>2022-08-03T03:26:14.999638100Z</date>
+  <millis>1659497174999</millis>
+  <nanos>638100</nanos>
+  <sequence>2</sequence>
+  <logger>loggerClient</logger>
+  <level>INFO</level>
+  <class>Client.Client</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Anna:  покинул чат</message>
+</record>
+</log>

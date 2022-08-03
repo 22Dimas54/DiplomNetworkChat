@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-03T03:18:25.393057400Z</date>
+  <millis>1659496705393</millis>
+  <nanos>57400</nanos>
+  <sequence>0</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Server started </message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-03T03:21:56.323489400Z</date>
+  <millis>1659496916323</millis>
+  <nanos>489400</nanos>
+  <sequence>0</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Server started </message>
+</record>
+<record>
+  <date>2022-08-03T03:22:11.515837200Z</date>
+  <millis>1659496931515</millis>
+  <nanos>837200</nanos>
+  <sequence>1</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>В чате новый участник Test</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:18.858510900Z</date>
+  <millis>1659496938858</millis>
+  <nanos>510900</nanos>
+  <sequence>2</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>Участник 'Test': 'msg test'</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:23.241317500Z</date>
+  <millis>1659496943241</millis>
+  <nanos>317500</nanos>
+  <sequence>3</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>Участник 'Test': ' покинул чат'</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:43.424446800Z</date>
+  <millis>1659496963424</millis>
+  <nanos>446800</nanos>
+  <sequence>4</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>16</thread>
+  <message>В чате новый участник Bob</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:52.895882100Z</date>
+  <millis>1659496972895</millis>
+  <nanos>882100</nanos>
+  <sequence>5</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>16</thread>
+  <message>Участник 'Bob': 'msg Boba'</message>
+</record>
+<record>
+  <date>2022-08-03T03:22:56.433058Z</date>
+  <millis>1659496976433</millis>
+  <nanos>58000</nanos>
+  <sequence>6</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>16</thread>
+  <message>Участник 'Bob': ' покинул чат'</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-03T03:25:48.125372600Z</date>
+  <millis>1659497148125</millis>
+  <nanos>372600</nanos>
+  <sequence>0</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Server started </message>
+</record>
+<record>
+  <date>2022-08-03T03:26:00.002000400Z</date>
+  <millis>1659497160002</millis>
+  <nanos>400</nanos>
+  <sequence>1</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>В чате новый участник Anna</message>
+</record>
+<record>
+  <date>2022-08-03T03:26:11.510837Z</date>
+  <millis>1659497171510</millis>
+  <nanos>837000</nanos>
+  <sequence>2</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>Участник 'Anna': 'msg Anna'</message>
+</record>
+<record>
+  <date>2022-08-03T03:26:14.999136600Z</date>
+  <millis>1659497174999</millis>
+  <nanos>136600</nanos>
+  <sequence>3</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>Участник 'Anna': ' покинул чат'</message>
+</record>
