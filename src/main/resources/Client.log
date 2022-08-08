@@ -2,119 +2,63 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-08-03T03:22:11.517841700Z</date>
-  <millis>1659496931517</millis>
-  <nanos>841700</nanos>
+  <date>2022-08-08T06:23:30.616216400Z</date>
+  <millis>1659939810616</millis>
+  <nanos>216400</nanos>
   <sequence>0</sequence>
   <logger>loggerClient</logger>
   <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>В чате новый участник Test</message>
+  <class>Client.MessageHandler</class>
+  <method>readMessages</method>
+  <thread>16</thread>
+  <message>В чате новый участник Участник 1</message>
 </record>
 <record>
-  <date>2022-08-03T03:22:18.859513Z</date>
-  <millis>1659496938859</millis>
-  <nanos>513000</nanos>
+  <date>2022-08-08T06:23:43.547170300Z</date>
+  <millis>1659939823547</millis>
+  <nanos>170300</nanos>
   <sequence>1</sequence>
   <logger>loggerClient</logger>
   <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>Test: msg test</message>
+  <class>Client.MessageHandler</class>
+  <method>readMessages</method>
+  <thread>16</thread>
+  <message>В чате новый участник Участник 2</message>
 </record>
 <record>
-  <date>2022-08-03T03:22:23.242319900Z</date>
-  <millis>1659496943242</millis>
-  <nanos>319900</nanos>
+  <date>2022-08-08T06:23:51.588199700Z</date>
+  <millis>1659939831588</millis>
+  <nanos>199700</nanos>
   <sequence>2</sequence>
   <logger>loggerClient</logger>
   <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>Test:  покинул чат</message>
-</record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2022-08-03T03:22:43.426952100Z</date>
-  <millis>1659496963426</millis>
-  <nanos>952100</nanos>
-  <sequence>0</sequence>
-  <logger>loggerClient</logger>
-  <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>В чате новый участник Bob</message>
+  <class>Client.MessageHandler</class>
+  <method>readMessages</method>
+  <thread>16</thread>
+  <message>Участник 2: Привет</message>
 </record>
 <record>
-  <date>2022-08-03T03:22:52.896885600Z</date>
-  <millis>1659496972896</millis>
-  <nanos>885600</nanos>
-  <sequence>1</sequence>
+  <date>2022-08-08T06:24:15.034560900Z</date>
+  <millis>1659939855034</millis>
+  <nanos>560900</nanos>
+  <sequence>3</sequence>
   <logger>loggerClient</logger>
   <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>Bob: msg Boba</message>
+  <class>Client.MessageHandler</class>
+  <method>readMessages</method>
+  <thread>16</thread>
+  <message>Участник 1: Добрый день!</message>
 </record>
 <record>
-  <date>2022-08-03T03:22:56.434058900Z</date>
-  <millis>1659496976434</millis>
-  <nanos>58900</nanos>
-  <sequence>2</sequence>
+  <date>2022-08-08T06:24:29.305829700Z</date>
+  <millis>1659939869305</millis>
+  <nanos>829700</nanos>
+  <sequence>4</sequence>
   <logger>loggerClient</logger>
   <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>Bob:  покинул чат</message>
-</record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE log SYSTEM "logger.dtd">
-<log>
-<record>
-  <date>2022-08-03T03:26:00.005509200Z</date>
-  <millis>1659497160005</millis>
-  <nanos>509200</nanos>
-  <sequence>0</sequence>
-  <logger>loggerClient</logger>
-  <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>В чате новый участник Anna</message>
-</record>
-<record>
-  <date>2022-08-03T03:26:11.511839600Z</date>
-  <millis>1659497171511</millis>
-  <nanos>839600</nanos>
-  <sequence>1</sequence>
-  <logger>loggerClient</logger>
-  <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>Anna: msg Anna</message>
-</record>
-<record>
-  <date>2022-08-03T03:26:14.999638100Z</date>
-  <millis>1659497174999</millis>
-  <nanos>638100</nanos>
-  <sequence>2</sequence>
-  <logger>loggerClient</logger>
-  <level>INFO</level>
-  <class>Client.Client</class>
-  <method>start</method>
-  <thread>1</thread>
-  <message>Anna:  покинул чат</message>
+  <class>Client.MessageHandler</class>
+  <method>readMessages</method>
+  <thread>16</thread>
+  <message>Участник 1:  покинул чат</message>
 </record>
 </log>

@@ -34,7 +34,7 @@ public class ClientTest {
     @MethodSource("source")
     public void testGetResource(String key, String expected) {
         //act
-        String result = Client.getResource(key);
+        String result = MessageHandler.getResource(key);
         //assert
         assertEquals(expected, result);
     }
