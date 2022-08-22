@@ -14,10 +14,10 @@ public class MessageHandler {
 
     private boolean online;
     private Socket clientSocket;
-    private static final String PATH_LOG = "src\\main\\resources\\Client.log";
+    private static final String PATH_LOG = "src"+File.separator+"main"+File.separator+"resources"+File.separator+"Client.log";
     private static final Logger LOGGER_CLIENT = Logger.getLogger("loggerClient");
     private FileHandler fileHandlerClient;
-    private static final String PATH = "src\\main\\resources\\settings.json";
+    private static final String PATH = "src"+File.separator+"main"+File.separator+"resources"+File.separator+"settings.json";
     private static final int PORT = Integer.parseInt(getResource("port"));
     private static final String HOST = getResource("host");
     private PrintWriter out;

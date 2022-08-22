@@ -13,8 +13,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Server {
-    private static final String PATH = "src\\main\\resources\\settings.json";
-    private static final String PATH_LOG = "src\\main\\resources\\Server.log";
+    private static final String PATH = "src"+File.separator+"main"+File.separator+"resources"+File.separator+"settings.json";
+    private static final String PATH_LOG = "src"+File.separator+"main"+File.separator+"resources"+File.separator+"Server.log";
     private static final int PORT = Integer.parseInt(getResource("port"));
     private static final Logger LOGGER_SERVER = Logger.getLogger("loggerServer");
     private final BlockingQueue<ClientHandler> clients = new LinkedBlockingQueue<>();

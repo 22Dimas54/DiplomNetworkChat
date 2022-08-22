@@ -85,3 +85,42 @@
   <thread>16</thread>
   <message>Участник 'Участник 2': ' покинул чат'</message>
 </record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-22T02:07:14.007133800Z</date>
+  <millis>1661134034007</millis>
+  <nanos>133800</nanos>
+  <sequence>0</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>Server started</message>
+</record>
+<record>
+  <date>2022-08-22T02:07:39.525133200Z</date>
+  <millis>1661134059525</millis>
+  <nanos>133200</nanos>
+  <sequence>1</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>В чате новый участник File.separator</message>
+</record>
+<record>
+  <date>2022-08-22T02:07:46.497094400Z</date>
+  <millis>1661134066497</millis>
+  <nanos>94400</nanos>
+  <sequence>2</sequence>
+  <logger>loggerServer</logger>
+  <level>INFO</level>
+  <class>Server.Server</class>
+  <method>sendLogger</method>
+  <thread>15</thread>
+  <message>Участник 'File.separator': ' покинул чат'</message>
+</record>
